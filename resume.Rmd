@@ -54,9 +54,9 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> voznyukyel@gmail.com
+- <i class="fa fa-envelope"></i> XXXXXXXXXX@gmail.com
 - <i class="fa fa-github"></i> https://github.com/voznyuky
-- <i class="fa fa-phone"></i> (503)319-1533
+- <i class="fa fa-phone"></i> (503)XXX-XXXX
 
 
 
@@ -69,13 +69,15 @@ Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "Bilingual",          4,
+  "Public Speaking",    4,
   "Program Design",     4,
   "Program Development",5,
   "Program Evaluation", 5,
   "Data Analysis",      3,
   "Salesforce",         4,
   "R",                  3,
-  "Public Speaking",    4
+  "HTML",               3,
+  "YAML",               3
 )
 build_skill_bars(skills)
 ```
@@ -143,5 +145,4 @@ Selected Achievements {data-icon=newspaper}
 ```{r}
 position_data %>% print_section('achievements')
 ```
-
 
